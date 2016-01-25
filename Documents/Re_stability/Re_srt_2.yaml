@@ -5,13 +5,13 @@ preamble: >
   @init_plot_env(); 
   const pgrad = -1.102e-3;
   const F = [-pgrad; 0.0];
-  const nu = 1/29;
+  const nu = 1/6;
   const constit_rel_f = init_constit_srt_const(nu);
   const forcing_kf = init_guo_Fk(F);
   const datadir = "data/sukop";
   const filedir = "~/Documents/stabdata.dsv";
   const ni = 20;
-  const nj = 12;
+  const nj = 16;
   const u = 1.00;
   const Re = nj * u / nu; 
 
